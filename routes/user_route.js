@@ -15,11 +15,13 @@ router.route('/').get((req, res) => {
 })
 
 // Create User route
-router.route('/create_user').post((req,res,next) => {
+router.route('/create-user').post((req,res,next) => {
     User.create(req.body, (error, data) => {
         if (error) {
             return next(error)
         } else {
+            console.log(req.body);
+            console.log(data);
             res.json(data)
         }
     })
@@ -56,7 +58,7 @@ router.route('/delete-student/:id').delete((req,res,next) => {
         if (error) {
             return next(error)
         } else {
-            res.status(200)/son({msg:data})
+            res.status(200).json({msg:data})
         }
     })
 })
