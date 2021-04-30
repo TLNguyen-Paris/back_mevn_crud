@@ -52,7 +52,7 @@ router.route('/update-user/:id').post((req,res,next) => {
 })
 
 // User Delete Route
-router.route('/delete-student/:id').delete((req,res,next) => {
+router.route('/delete-user/:id').delete((req,res,next) => {
     User.findByIdAndDelete(req.params.id, (error,data) => {
         if (error) {
             return next(error)
