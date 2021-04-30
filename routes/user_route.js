@@ -21,7 +21,6 @@ router.route('/create-user').post((req,res,next) => {
             return next(error)
         } else {
             console.log(req.body);
-            console.log(data);
             res.json(data)
         }
     })
