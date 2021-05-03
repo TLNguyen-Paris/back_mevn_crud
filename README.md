@@ -11,6 +11,9 @@ Depedencies used : nodemon, mongoose, express, dotenv, cors, body-parser
 
 You can clone it or fork it but the code will not work fully because of the environment variable. You will need to add an Mongo database URL.
 
+This project will be upload on heroku when it's fully done.
+
+
 ## Next Step ?
 Find a Job
 
