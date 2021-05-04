@@ -17,6 +17,6 @@ This project will be upload on heroku when it's fully done.
 ## Next Step ?
 Find a Job
 
-Create a Auth using passport in MEVN Stack & adding bcrypt(depedencie)
+Create a Auth using passport in MEVN Stack & adding bcrypt/argon2 (depedencie)
 
 Create a E-Commerce Website MEVN Stack using all the knowledge that i acquire so far.
